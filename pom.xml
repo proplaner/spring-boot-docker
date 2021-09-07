@@ -62,10 +62,13 @@
 			<plugin>
 				<groupId>io.fabric8</groupId>
 				<artifactId>docker-maven-plugin</artifactId>
-				<version>0.20.0</version>
+				<version>0.33.0</version>
 
 				<configuration>
-
+<!--					<authConfig>-->
+<!--						<username>proplaner</username>-->
+<!--						<password>gsxr750</password>-->
+<!--					</authConfig>-->
                     <!--<dockerHost>http://127.0.0.1:2375</dockerHost>-->
                     <dockerHost>unix:///var/run/docker.sock</dockerHost>
 
