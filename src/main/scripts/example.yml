@@ -20,8 +20,8 @@ spring:
 
 # list syntax
 somelist:
-  - value1: one
-  - value2: two
+- value1: one
+- value2: two
 
 # Alternate list syntax
 somelist2:
